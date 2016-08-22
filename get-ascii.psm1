@@ -60,7 +60,7 @@ function Get-Ascii {
        'DontKnow'     { [char[]]@(9488,40,39,65374,39,65307,41,9484) -join '' | Write-Ascii }
        'Happy'        { [char[]]@(12541,40,180,9661,96,41,47) -join '' | Write-Ascii }
        'Distaste'     { [char[]]@(40,9580,32,3232,30410,3232,41) -join '' | Write-Ascii }
-       'ThatsGood'    { [char[]]@(40,65283,65439,1044,65439,41) -join '' | Write-Ascii }
+       'ThatsGood'    { [char[]]@(65288,12539,8704,12539,65289) -join '' | Write-Ascii }
        'ThatsBad'     { [char[]]@(65288,12539,65313,12539,65289) -join '' | Write-Ascii }
        'HappyStroll'  { [char[]]@(5461,40,32,5147,32,41,5463) -join '' | Write-Ascii }
        'Anger'        { [char[]]@(4314,40,3232,30410,3232,41,4314) -join '' | Write-Ascii }
